@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>for - HTML 5</title>
+    </head>
+    <body>
+        <h2>Element form HTML 5</h2>
+        <form name="fmhs" action="proses.php" method="post">
+            <table>
+                <Tr>
+                    <td>Nim</td>
+                    <td><input type="number" name="fnim" required></td>
+                </Tr>
+                 <Tr>
+                    <td>Nama</td>
+                    <td><input type="text" name="fnama" required></td>
+                </Tr>
+                 <Tr>
+                    <td>Tanggal lahir</td>
+                    <td><input type="date" name="fTanggallahir" required></td>
+                </Tr>
+                <Tr>
+                        <td>Program studi</td>
+                        <td>
+                            <select name="fprodi">
+                                <option value="">:: Pilih Prodi</option>
+                                <option value="A11">S1 - Teknik Informatika</option>
+                                <option value="A12">S1 - Sistem Informasi</option>
+                                <option value="A22">Vokasi - Teknik Informatika</option>
+                            </select>
+                        </td>
+                    </Tr>
+                    <tr>
+                        <td>Hobby</td>
+                        <td>
+                            <input type="checkbox" name="Hobbi1" value="11"><label for="fhobbi1">Main Game<br>
+                            <input type="checkbox" name="Hobbi2" value="12"><label for="fhobbi2">24/7 TikTok<br>
+                            <input type="checkbox" name="Hobbi1" value="13"><label for="fhobbi3">Baca Buku<br>
+                        </td>
+                    </tr>
+                    <tr>
+                    <td>File KTP</td>
+                    <td><input type="file" name="fktp" required></td>
+                    </tr>
+                    <tr>
+                        <td><input type="submit" name="fsubmit"></td>
+                        <td><input type="hidden" name="fhidde" value="r4hsi4"></td>
+                    </tr>
+            </table>
+        </form>  
+    </body>
+</html>
